@@ -1,0 +1,3 @@
+main:
+	nop
+	j main
