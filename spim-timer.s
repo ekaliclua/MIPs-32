@@ -8,7 +8,7 @@ main:
 main_loop:
 
         mfc0 $a0, $13
-        srl $a0, $a0, 14 # cause >> 14
+        srl $a0, $a0, 15 # cause >> 15
         andi $a0, $a0, 1
 
         bne $a0, $zero, show
